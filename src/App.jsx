@@ -1,6 +1,6 @@
 import { Header } from "./components/header"
+import './global.css'
 import { Post } from "./Post"
-import './styles.css'
 export function App() {
 
 
