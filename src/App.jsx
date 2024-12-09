@@ -16,13 +16,12 @@ export function App() {
       content: [
         { type: 'paragraph', content: 'Fala galeraa 👋' },
         { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-        { type: 'link', content: 'jane.design/doctorcare' },
-        { type: 'paragraph', content: '👉' },
-        { type: 'paragraph', content: ' #novoprojeto' },
-        { type: 'paragraph', content: ' #nlw' },
-        { type: 'paragraph', content: ' #rocketseat' }
+        { type: 'link', content: '👉 jane.design/doctorcare' },
+        { type: 'hashtag', content: 'novoprojeto' },
+        { type: 'hashtag', content: 'nlw' },
+        { type: 'hashtag', content: 'rocketseat' }
       ],
-      publishedAt: new Date('2022-07-20 14:30:00')
+      publishedAt: new Date('2024-11-20 19:30:00')
     },
     {
       id: 2,
@@ -34,13 +33,12 @@ export function App() {
       content: [
         { type: 'paragraph', content: 'Fala galeraa 👋' },
         { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-        { type: 'link', content: 'jane.design/doctorcare' },
-        { type: 'paragraph', content: '👉' },
-        { type: 'paragraph', content: ' #novoprojeto' },
-        { type: 'paragraph', content: ' #nlw' },
-        { type: 'paragraph', content: ' #rocketseat' }
+        { type: 'link', content: '👉 jane.design/doctorcare' },
+        { type: 'hashtag', content: ' novoprojeto' },
+        { type: 'hashtag', content: ' nlw' },
+        { type: 'hashtag', content: ' rocketseat' }
         ],
-      publishedAt: new Date('2022-07-20 14:30:00')
+      publishedAt: new Date('2024-12-08 11:50:00')
       }
   ]
 
