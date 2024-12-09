@@ -1,7 +1,7 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 import { Avatar } from './Avatar'
 import styles from './Comment.module.css'
-export function Comment() {
+export function Comment({content}) {
   return (
     <div className={styles.comment}>
       <Avatar hasBorder={false} src="https://github.com/rafaumeu.png" alt="" />
@@ -18,7 +18,7 @@ export function Comment() {
               </button>
             </div>
           </header>
-          <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+          <p>{content}</p>
         </div>
         <footer>
           <button>
