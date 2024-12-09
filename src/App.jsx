@@ -31,13 +31,14 @@ export function App() {
         role: 'Educator @Rocketseat'
       },
       content: [
-        { type: 'paragraph', content: 'Fala galeraa 👋' },
-        { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-        { type: 'link', content: '👉 jane.design/doctorcare' },
-        { type: 'hashtag', content: ' novoprojeto' },
-        { type: 'hashtag', content: ' nlw' },
-        { type: 'hashtag', content: ' rocketseat' }
-        ],
+        { type: 'paragraph', content: 'E aí, pessoal! 😄' },
+        { type: 'paragraph', content: 'Hoje quero compartilhar com vocês meu mais novo projeto! Foi desenvolvido durante a trilha Ignite da Rocketseat. O nome dele é DevConnect 🌟' },
+        { type: 'link', content: '👉 devconnect.app' },
+        { type: 'hashtag', content: 'projetonovo' },
+        { type: 'hashtag', content: 'ignite' },
+        { type: 'hashtag', content: 'rocketseat' }
+      ],
+    
       publishedAt: new Date('2024-12-08 11:50:00')
       }
   ]
