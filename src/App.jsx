@@ -5,7 +5,44 @@ import { SideBar } from './components/SideBar'
 import './global.css'
 
 export function App() {
-
+  const posts = [
+    {
+      id: 1,
+      author: {
+        avatarUrl: 'https://github.com/diego3g.png',
+        name: 'Diego Fernandes',
+        role: 'CTO @Rocketseat'
+      },
+      content: [
+        { type: 'paragraph', content: 'Fala galeraa 👋' },
+        { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+        { type: 'link', content: 'jane.design/doctorcare' },
+        { type: 'paragraph', content: '👉' },
+        { type: 'paragraph', content: ' #novoprojeto' },
+        { type: 'paragraph', content: ' #nlw' },
+        { type: 'paragraph', content: ' #rocketseat' }
+      ],
+      publishedAt: new Date('2022-07-20 14:30:00')
+    },
+    {
+      id: 2,
+      author: {
+        avatarUrl: 'https://github.com/maykbrito.png',
+        name: 'Mayk Brito',
+        role: 'Educator @Rocketseat'
+      },
+      content: [
+        { type: 'paragraph', content: 'Fala galeraa 👋' },
+        { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+        { type: 'link', content: 'jane.design/doctorcare' },
+        { type: 'paragraph', content: '👉' },
+        { type: 'paragraph', content: ' #novoprojeto' },
+        { type: 'paragraph', content: ' #nlw' },
+        { type: 'paragraph', content: ' #rocketseat' }
+        ],
+      publishedAt: new Date('2022-07-20 14:30:00')
+      }
+  ]
 
   return (
     <>
@@ -13,8 +50,16 @@ export function App() {
       <div className={styles.wrapper}>
         <SideBar />
         <main>
-          <Post />
-          <Post />
+          {posts.map(post => {
+            return (
+              <Post
+                key={post.id}
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+              />
+            )
+          })}
         </main>
       </div>
     </>
