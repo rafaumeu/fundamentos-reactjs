@@ -1,158 +1,103 @@
-# React Fundamentals Project 🚀
+<center>
+   <img src="src/assets/ignite-logo.svg" />
+   <h1>Ignite Feed 🚀</h1>
+</center>
 
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite)
+![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?logo=typescript)
 
 ## 🖍️ Project Description
 
-This project is a web application developed with React and Vite, focused on learning and applying React fundamentals. The goal is to create an interactive interface where users can view posts, leave comments, and interact with content.
+Ignite Feed is a dynamic web application developed with React and Vite, designed to simulate a social media feed where users can create, interact with posts, and leave comments. The project focuses on applying React fundamentals and creating an engaging user interface.
 
-## 🛠️ Technologies Used
+## 📸 Screenshots
 
-- **React** 🗾: JavaScript library for building user interfaces
-- **Vite** ⚡: Next-generation frontend tooling
-- **CSS Modules** 💅: For modular and scoped styling
-- **Phosphor Icons** 🎨: For beautiful, consistent icons
+### Desktop View
 
-## ✨ Features
+![Desktop Screenshot](https://github.com/user-attachments/assets/aa5bda4d-c087-4afb-b7e1-595afb9ec68f)
 
-- 📭 Post visualization with author information
-- 💬 Comment section with feedback mechanism
-- 👍 Interactive "applaud" button for comments
-- 🎨 Responsive design
-- 🔄 Dynamic content rendering
+### Mobile View
 
-## 🧐 Learning Outcomes
+![Mobile Screenshot](https://github.com/user-attachments/assets/26d8aa83-e241-4eb5-9ec2-7579bfb940aa)
 
-### React Fundamentals
+## 🛠️ Key Features Implemented
 
-- [x] Functional components
-- [x] Props and component composition
-- [x] State management
-- [x] Event handling
-- [x] Conditional rendering
+- 📭 Dynamic post rendering
+- 👤 User profile display
+- 💬 Interactive comment system
+- 👍 Like/Applaud functionality
+- 🕒 Timestamp formatting
+- 🗑️ Comment deletion
 
-### CSS and Styling
+## 🌟 Project Highlights
 
-- [x] CSS Modules implementation
-- [x] Responsive design techniques
-- [x] Modular styling approach
+- Modular component structure
+- State management with React Hooks
+- Responsive design
+- CSS Modules for styling
+- Date manipulation with date-fns
 
-### Development Workflow
+## 🚀 Technologies Used
 
-- [x] Vite project setup
-- [x] Component-driven development
-- [x] Basic project structure
+- React
+- Vite
+- CSS Modules
+- date-fns
+- Phosphor Icons
 
-## 🚀 Getting Started
+## 🔜 Upcoming Improvements
 
-### Prerequisites
+- [ ] Persistent storage
+- [ ] User authentication
+- [ ] Backend integration
+- [ ] Enhanced state management
 
-- Node.js (v14+)
-- npm or Yarn
+## 🚀 Quick Start
 
-### Installation Steps
+1. Clone the repository
+2. Install dependencies: npm install
+3. Run development server: npm run dev
+4. Open [http://localhost:5173](http://localhost:5173)
 
-1. Clone the repository:
+## 📊 Project Structure
 
-   ```bash
-   git clone https://github.com/rafaumeu/fundamentos-reactjs.git
-   ```
+```
+src/
+│ 
+├── components/ 
+│   ├── Avatar/ 
+│   ├── Comment/ 
+│   ├── Header/ 
+│   ├── Post/ 
+│   └── Sidebar/ 
+│ 
+├── styles/ 
+│   └── global.css 
+│ 
+├── App.jsx 
+└── main.jsx
+```
 
-2. Navigate to project directory:
-
-   ```bash
-   cd fundamentos-reactjs
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-4. Start development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-5. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## 🔼 Upcoming Improvements
-
-- [ ] 🔐 User authentication
-- [ ] 💾 Persistent storage
-- [ ] 🌐 Backend integration
-- [ ] 📊 State management with Redux/Context
-- [ ] 🧪 Comprehensive unit testing
-
-## 🤝 Contributing
+## 👥 Contribution
 
 Contributions are welcome!
 
 1. Fork the repository
-2. Create your feature branch:
-
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. Commit your changes:
-
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-
-4. Push to the branch:
-
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
+2. Create your feature branch: git checkout -b feature/AmazingFeature
+3. Commit your changes: git commit -m 'Add some AmazingFeature'
+4. Push to the branch: git push origin feature/AmazingFeature  
 5. Open a Pull Request
-
-## 👊 Project Structure
-
-```plaintext
-src/
-│
-├── components/
-│   ├── Avatar/
-│   ├── Comment/
-│   ├── Header/
-│   ├── Post/
-│   └── Sidebar/
-│
-├── styles/
-│   └── global.css
-│
-├── App.jsx
-└── main.jsx
-```
-
-## 📊 Project Stats
-
-- **GitHub stars:** *Add badge here*
-- **GitHub forks:** *Add badge here*
-- **GitHub issues:** *Add badge here*
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ## 📞 Contact
 
-**Rafael Dias**
+Rafael Dias
 
-- GitHub: [rafaumeu](https://github.com/rafaumeu)
-- LinkedIn: [Rafael Dias Zendron](https://www.linkedin.com/in/rafael-dias-zendron-528290132/)
-- Project Link: [https://github.com/rafaumeu/fundamentos-reactjs](https://github.com/rafaumeu/fundamentos-reactjs)
+- GitHub: **@rafaumeu**
+- Project Link: **Ignite Feed Repository**
 
 Made with ❤️ and 🚀 by Rafael Dias
