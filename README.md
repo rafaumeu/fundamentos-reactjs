@@ -1,7 +1,7 @@
-<center>
-   <img src="src/assets/ignite-logo.svg" />
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/513a5e04-23c9-4938-89a8-80c57eadefb7" alt="Ignite Feed Logo" width="100" />
    <h1>Ignite Feed 🚀</h1>
-</center>
+</div>
 
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-4.0-646CFF?logo=vite)  
@@ -100,4 +100,6 @@ Rafael Dias
 - GitHub: **@rafaumeu**
 - Project Link: **Ignite Feed Repository**
 
-Made with ❤️ and 🚀 by Rafael Dias
+<div align="center">
+   <p>Made with ❤️ and 🚀 by Rafael Dias</p>
+</div>
