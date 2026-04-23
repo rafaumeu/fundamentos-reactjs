@@ -14,6 +14,8 @@
   <img src="https://img.shields.io/github/last-commit/rafaumeu/fundamentos-reactjs">
 </div>
 
+**[Live Demo →](https://fundamentos-reactjs-rho.vercel.app)**
+
 ## 🖍️ Project Description
 
 Ignite Feed is a dynamic web application developed with React, TypeScript, and Vite, designed to simulate a social media feed where users can create, interact with posts, and leave comments. The project focuses on applying React fundamentals, TypeScript typing, and creating an engaging user interface.
