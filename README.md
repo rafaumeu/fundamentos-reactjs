@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-1572B6?style=for-the-badge)
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react" alt="React"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite" alt="Vite"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript"/> <img src="https://img.shields.io/badge/CSS_Modules-1572B6?style=for-the-badge" alt="CSS Modules"/>
 </p>
 
 ## Overview
